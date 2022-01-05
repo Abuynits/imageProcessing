@@ -1,7 +1,7 @@
 import processing.core.PApplet;
 
 public class DoNothingFilter implements PixelFilter {
-
+// must implement pixel filter interface is see control plus click
     @Override
     public DImage processImage(DImage img) {
         // we don't change the input image at all!

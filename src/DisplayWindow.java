@@ -293,6 +293,7 @@ public class DisplayWindow extends PApplet {
         PApplet.main("DisplayWindow", new String[]{filePath});
     }
 
+
     public static void getInputInteractively() {
         PApplet.main("DisplayWindow", new String[]{});
     }
